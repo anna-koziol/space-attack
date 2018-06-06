@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space Attack!</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js"></script>
+    <script src="js/drawing.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/bullets.js"></script>    
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="shortcut icon" href="graphics/enemy.png">
+
+</head>
+
+<body>
+    <div id="main">
+        <canvas width="600px" height="475px" id="shotBulet" style="z-index: 1;"></canvas>        
+        <canvas width="650px" height="600px" id="view"></canvas>
+        <canvas width="600px" height="475px" id="action"></canvas>
+
+        
+
+        <div id="canvasLetter">
+            <div class="textPink">SPACE ATTACK!</div>
+            <div class="textYellow">PRESS FIRE TO BEGIN</div>
+            <div class="textGrey">ALPHA SOFTWARE</div>
+        </div>
+
+        <div id="score">
+            <div class="textBlue">SCORE</div>
+            <div class="textWhite" id="scoreUser">000000</div>
+
+            <div class="textBlue"> HIGH SCORE</div>
+            <div class="textWhite" id="scoreUserBest">000000</div>
+
+            <div class="textBlue">CANNONS</div>
+            <div class="textWhite" id="cannons">5</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

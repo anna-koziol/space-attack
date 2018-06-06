@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: Emulogic, sans-serif;
+    color: darkred;
+    text-align: center;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    font-family: Emulogic, sans-serif;
+    text-align: center;
+}
+
+#end {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    font-family: Emulogic, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.textPink {
+    color: rgb(224, 136, 151);
+    margin-top: 250px;
+}
+
+.textYellow {
+    margin-top: 175px;
+    color: rgb(230, 230, 102);
+}
+
+.textGrey {
+    margin-top: 50px;
+    color: gray;
+}
+
+.textBlue {
+    color: paleturquoise;
+    margin-top: 90px;
+}
+
+.textWhite {
+    color: white;
+    border-bottom: 5px solid rgb(147, 58, 76);
+    border-top: 5px solid rgb(147, 58, 76);
+    padding: 10px;
+}
+
+#score {
+    border-left: 5px solid rgb(147, 58, 76);
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 150px;
+    height: 650px;
+    margin-top: 15px;
+}
+
+.canvasE {
+    width: 600px;
+    height: 475px;
+    z-index: 5;
+}
+
+#gunDiv {
+    width: 52px;
+    height: 50px;
+    background-image: url("../graphics/gun.PNG");
+    position: absolute;
+    z-index: 10;
+}
+
+#floor {
+    width: 580px;
+    height: 135px;
+    top: 450px;
+    left: 120px;
+    background-image: url("../graphics/floor.PNG");
+    position: absolute;
+    z-index: 9;
+}
+
+.shot {
+    width: 7px;
+    height: 13px;
+    background-image: url("../graphics/shot.PNG");
+    position: absolute;
+    z-index: 11;
+}
+
+.enemies {
+    width: 67px;
+    height: 58px;
+    background-image: url("../graphics/enemy.PNG");
+    position: absolute;
+    z-index: 12;
+}
+
+.bullet {
+    width: 22px;
+    height: 31px;
+    position: absolute;
+    z-index: 9;
+}
+
+#canvasLetter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20%;
+    right: 0;
+    margin: auto;
+    width: 650px;
+}
+
+canvas {
+    border: 0px darkcyan solid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20%;
+    right: 0;
+    margin: auto;
+}
+
+#action {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto
+}
+
+@font-face {
+    font-family: 'Emulogic';
+    src: url("emulogic.ttf") format("truetype");
+}
